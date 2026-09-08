@@ -51,7 +51,7 @@ export function buildDoubleheaderSchedule(
   const teamsPerRound = allTeams.length / 2;
 
   for (let attempt = 0; attempt < 3000; attempt++) {
-    let pool = shuffle(baseGames);
+    const pool = shuffle(baseGames);
     const roundResults: [string, string][][] = [];
     let ok = true;
     for (let r = 0; r < rounds; r++) {
