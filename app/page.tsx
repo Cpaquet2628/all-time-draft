@@ -1,15 +1,9 @@
+import { SiteHeader } from "@/components/site-header";
+
 export default function Home() {
   return (
     <div className="flex flex-col flex-1">
-      {/* Top bar */}
-      <header className="border-b border-hairline">
-        <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4 text-sm">
-          <span className="font-semibold tracking-tight text-parchment">
-            20 Seasons
-          </span>
-          <span className="font-mono text-muted">Est. 2006</span>
-        </div>
-      </header>
+      <SiteHeader />
 
       {/* Hero */}
       <section className="mx-auto w-full max-w-5xl px-6 pt-16 pb-12 sm:pt-24 sm:pb-16">
