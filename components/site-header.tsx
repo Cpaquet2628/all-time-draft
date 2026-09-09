@@ -14,6 +14,9 @@ export function SiteHeader() {
           <Link href="/players" className="text-muted hover:text-parchment">
             Player pool
           </Link>
+          <Link href="/rules" className="text-muted hover:text-parchment">
+            Rules
+          </Link>
           <span className="font-mono text-muted">Est. 2006</span>
         </nav>
       </div>
